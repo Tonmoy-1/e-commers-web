@@ -191,4 +191,33 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   width: 90%;
+  
+}
+.popular {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.popular h1 {
+  color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 70px;
+}
+.seemore {
+  text-align: center;
+  margin-right: -680px;
+  text-decoration: none;
+  font-size: 22px;
+  color: rgba(224, 44, 109, 0.87);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.seemore i {
+  margin-left: 5px;
 }
