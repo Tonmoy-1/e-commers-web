@@ -1,0 +1,194 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1100px;
+  font-family: "Poppins", sans-serif;;
+}
+body section {
+  margin-top: 30px;
+}
+
+/* nav section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 40px;
+  /* border: 2px solid tomato; */
+  align-items: center;
+  gap: 215px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav h1 {
+  color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 22px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+nav ul li a {
+  text-decoration: none;
+  color:black;
+  font-size: 18px; 
+  color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+}
+
+/* banner section */
+.banner-section {
+  display: flex;
+ height: 100%;
+}
+.banner-content {
+  margin-left: 70px;
+  margin-top: 90px;
+}
+.banner-section h1 {
+  color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 35px;
+font-weight: 700;
+line-height: 50px;
+
+
+}
+
+.banner-section p {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+ margin-top: 10px;
+}
+.banner-section button {
+  padding: 6px 12px 6px 12px;
+  border-radius: 41px;
+margin-top: 5px;
+background: rgb(224, 44, 109);
+border: none;
+color: white;
+text-align: center;
+}
+
+.banner-section img {
+  margin-left: 220px;
+  margin-top: 30px;
+  width: 350px;
+  height: 335px;
+  background: url(images/Circle\ design.svg);
+  background-size: 97% 104% ;
+  background-repeat:no-repeat;
+  padding-bottom: 23px;
+ }
+
+
+  /* brand section */
+  .brand {
+    display: flex;
+    margin-top: 50px;
+    height: 100%;
+    text-align: center;
+  }
+
+  .nothing{
+    display: none;
+  }
+  .brand-logos  {
+    text-align: center;
+  }
+  .brand-logos img {
+    margin: 19px 27px;
+    width: 90px;
+    height: 45.28px;
+  }
+
+
+.card1 {
+  width: 325px;
+  height: 446px;
+/* border: 2px solid tomato; */
+text-align: left;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.card1 img {
+  margin: 10px;
+}
+.card1 h2 {
+  color: rgb(24, 25, 31);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.card1 h3  {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 110%;
+  margin-top: 5px;
+
+}
+
+
+
+.rating {
+  display: flex;
+  flex-direction: initial;
+  margin-left: -188px;
+  margin-top: 5px;
+
+}
+.star i {
+  color:rgb(251, 130, 0)
+}
+
+.rating h5 {
+  color: rgb(94, 99, 102);
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 1.1px;
+  text-align: left;
+  margin-left: -175px;
+}
+
+.product-des {
+  color: rgb(120, 120, 133);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 143%;
+  letter-spacing: 1.8%;
+  text-align: left;
+  width: 196px;
+  height: 61px;
+  margin: 9px 0px;
+}
+.card-info {
+  margin-left: 10px;
+}
+.popular-setion {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 90%;
+}
